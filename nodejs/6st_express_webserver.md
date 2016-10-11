@@ -22,7 +22,7 @@ app.get('/', function(req, res){
 // server.listen(3000, function(){
 //   console.log('Example app listening on port 3000!');
 // });
-app.listen(3000, function(){
+app.listen(3000, function(){        // app을3000번 포트에 연결
   console.log('Example app listening on port 3000!');
 });
 ```
